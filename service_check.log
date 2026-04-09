@@ -1,7 +1,0 @@
-2026-04-09 14:54:10 - Startar kontroll av tjänster...
-2026-04-09 14:54:10 - OK: Tjänsten 'Spooler' körs.
-2026-04-09 14:54:10 - VARNING: Tjänsten 'wuauserv' finns men är stoppad.
-2026-04-09 14:54:10 - VARNING: Tjänsten 'WinDefend' finns men är stoppad.
-2026-04-09 14:54:10 - FEL: Tjänsten 'FakeService' finns inte.
-2026-04-09 14:54:10 - Sammanfattning: 1 körs, 2 stoppade, 1 saknas.
-2026-04-09 14:54:10 - Kontrollen är slutförd.
