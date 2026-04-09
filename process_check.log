@@ -1,0 +1,37 @@
+Thu, Apr  9, 2026  2:26:36 PM - Startar processkontroll...
+Thu, Apr  9, 2026  2:26:36 PM - VARNING: Processen 'ssh' körs inte.
+Thu, Apr  9, 2026  2:26:36 PM - VARNING: Processen 'cron' körs inte.
+Thu, Apr  9, 2026  2:26:36 PM - VARNING: Processen 'apache2' körs inte.
+Thu, Apr  9, 2026  2:26:36 PM - Sammanfattning: 0 process(er) körs, 3 process(er) saknas.
+Thu, Apr  9, 2026  2:26:36 PM - Kontroller slutförda.
+Thu, Apr  9, 2026  2:28:14 PM - Startar processkontroll...
+Thu, Apr  9, 2026  2:28:14 PM - VARNING: Processen 'ssh' körs inte.
+Thu, Apr  9, 2026  2:28:14 PM - VARNING: Processen 'cron' körs inte.
+Thu, Apr  9, 2026  2:28:14 PM - VARNING: Processen 'apache2' körs inte.
+Thu, Apr  9, 2026  2:28:14 PM - Sammanfattning: 0 process(er) körs, 3 process(er) saknas.
+Thu, Apr  9, 2026  2:28:14 PM - Kontroller slutförda.
+04/09/2026 14:33:35 - Startar processkontroll...
+04/09/2026 14:33:35 - Processen 'explorer' körs.
+04/09/2026 14:33:35 - Processen 'powershell' körs.
+04/09/2026 14:33:35 - VARNING: Processen 'notepad' körs inte.
+04/09/2026 14:33:35 - VARNING: Processen 'fakeprocess' körs inte.
+04/09/2026 14:33:35 - Sammanfattning: 2 process(er) körs, 2 process(er) saknas.
+04/09/2026 14:33:35 - Kontroller slutförda.
+Thu, Apr  9, 2026  2:35:29 PM - Startar processkontroll...
+Thu, Apr  9, 2026  2:35:29 PM - VARNING: Processen 'explorer' körs inte.
+Thu, Apr  9, 2026  2:35:29 PM - VARNING: Processen 'powershell' körs inte.
+Thu, Apr  9, 2026  2:35:29 PM - VARNING: Processen 'notepad' körs inte.
+Thu, Apr  9, 2026  2:35:29 PM - Sammanfattning: 0 process(er) körs, 3 process(er) saknas.
+Thu, Apr  9, 2026  2:35:29 PM - Kontroller slutförda.
+Thu, Apr  9, 2026  2:39:11 PM - Startar processkontroll...
+Thu, Apr  9, 2026  2:39:11 PM - VARNING: Processen 'bash' körs inte.
+Thu, Apr  9, 2026  2:39:11 PM - VARNING: Processen 'code' körs inte.
+Thu, Apr  9, 2026  2:39:11 PM - VARNING: Processen 'notepad' körs inte.
+Thu, Apr  9, 2026  2:39:11 PM - Sammanfattning: 0 process(er) körs, 3 process(er) saknas.
+Thu, Apr  9, 2026  2:39:11 PM - Kontroller slutförda.
+Thu, Apr  9, 2026  3:44:20 PM - Startar processkontroll...
+Thu, Apr  9, 2026  3:44:20 PM - VARNING: Processen 'bash' körs inte.
+Thu, Apr  9, 2026  3:44:20 PM - VARNING: Processen 'code' körs inte.
+Thu, Apr  9, 2026  3:44:20 PM - VARNING: Processen 'notepad' körs inte.
+Thu, Apr  9, 2026  3:44:20 PM - Sammanfattning: 0 process(er) körs, 3 process(er) saknas.
+Thu, Apr  9, 2026  3:44:21 PM - Kontroller slutförda.
