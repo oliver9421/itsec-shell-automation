@@ -36,6 +36,19 @@ Files:
 
 ---
 
+### Security Scan
+Performs basic system security checks using Bash.
+
+Features:
+- Runs automated checks on the system
+- Helps identify potential security issues
+- Demonstrates basic security scripting
+
+Files:
+- `security_scan.sh`
+
+---
+
 ### Process Checker
 Checks whether specified processes are running.
 
