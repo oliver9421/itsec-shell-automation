@@ -1,74 +1,90 @@
-IT Security Automation Scripts
+# IT Security Automation Scripts
 
-This repository contains a set of basic security automation scripts developed in Bash, PowerShell, and Python. The purpose is to demonstrate fundamental scripting techniques used in system administration and IT security.
+This repository contains a collection of basic security automation scripts written in Bash, PowerShell, and Python. The project demonstrates fundamental scripting techniques used in system administration and IT security.
 
-Purpose
+---
 
-The project focuses on:
+## Purpose
 
-automation using scripts
-use of loops and functions
-handling input from files
-logging and error handling
-structured and readable code
-version control with Git
-Included Scripts
-Process Checker
+The goal of this project is to practice and demonstrate:
 
+- Automation using scripts
+- Use of loops and functions
+- File-based input handling
+- Logging and error detection
+- Structured and readable code
+- Version control using Git
+
+---
+
+## Included Scripts
+
+### Log Analyzer
+Analyzes a log file and detects potential security-related events.
+
+Features:
+- Detects failed login attempts
+- Identifies error messages
+- Flags unauthorized access attempts
+- Generates a summary report
+- Logs results to a file
+
+Files:
+- `log-analyzer.sh`
+- `log-analyzer.ps1`
+- `sample.log`
+
+---
+
+### Process Checker
 Checks whether specified processes are running.
 
 Files:
+- `process-checker.sh`
+- `process-checker.ps1`
+- `processlist.txt`
 
-process-checker.ps1
-process-checker.sh
-processlist.txt
-Service Checker
+---
 
-Checks whether Windows services exist and whether they are running or stopped.
-
-Files:
-
-service-checker.ps1
-servicelist.txt
-Basic Scripts
-
-Introductory scripts for simple checks and testing.
+### Service Checker
+Checks whether Windows services exist and if they are running or stopped.
 
 Files:
+- `service-checker.ps1`
+- `servicelist.txt`
 
-basic-security-check.ps1
-basic-security-check.sh
-hello-bash.sh
-hello-ps.ps1
-hello-python.py
-Features
-functions
-loops
-if/else logic
-file-based input
-logging
-error handling
-summary output
-Usage
-PowerShell
+---
 
-Run:
+### Basic Scripts
+Simple scripts for testing and learning purposes.
 
+Files:
+- `basic-security-check.sh`
+- `basic-security-check.ps1`
+- `hello-bash.sh`
+- `hello-ps.ps1`
+- `hello-python.py`
+
+---
+
+## Features
+
+- Functions and modular code
+- Looping through data
+- Conditional logic (if/else)
+- File input handling
+- Logging and reporting
+- Summary output generation
+
+---
+
+## Usage
+
+### PowerShell
+
+Run scripts:
+
+```powershell
+.\log-analyzer.ps1
 .\process-checker.ps1
 .\service-checker.ps1
-
-If scripts are blocked:
-
-Set-ExecutionPolicy -Scope Process Bypass
-Bash
-
-Run:
-
-chmod +x process-checker.sh
-./process-checker.sh
-Notes
-log files are excluded using .gitignore
-some Bash checks may not detect Windows processes in Git Bash
-Author
-
-Student project in IT security automation.
