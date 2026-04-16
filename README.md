@@ -60,7 +60,7 @@ Files:
 
 service-checker.ps1
 servicelist.txt
-User Risk Analysis 
+User Risk Analysis
 
 Analyzes user activity from a CSV file and identifies potential security risks.
 
