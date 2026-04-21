@@ -1,0 +1,7 @@
+"Username","Status","Role","Country","RiskScore","RiskLevel","Reasons"
+"anna","active","user","SE","0","LOW",""
+"erik","active","admin","SE","9","CRITICAL","Active account unused for over 90 days; Account has admin privileges; MFA not enabled; Combination risk: admin without MFA"
+"david","disabled","user","SE","2","LOW","MFA not enabled"
+"lisa","active","user","RU","8","HIGH","Many failed login attempts; Activity from high-risk country; Combination risk: failed logins from high-risk country"
+"omar","active","admin","US","10","CRITICAL","Account has admin privileges; Many failed login attempts; MFA not enabled; Combination risk: admin without MFA"
+"eva","active","user","SE","7","HIGH","Active account unused for over 90 days; MFA not enabled; Active account unused for over 365 days"
