@@ -21,6 +21,8 @@ The purpose of this project is to practice and demonstrate:
 - Data validation and error handling  
 - Writing structured and readable code  
 - Version control using Git  
+- JSON parsing and data correlation  
+- Multi-source threat detection  
 
 ---
 
@@ -112,6 +114,33 @@ This script introduces validation, scoring, and more realistic security analysis
 
 ---
 
+### Event Risk Analysis (JSON + CSV)
+
+Analyzes user login activity by combining structured data from a CSV file and a JSON event log.
+
+This script simulates a basic SIEM/SOC detection workflow by correlating multiple data sources and applying rule-based risk classification.
+
+**Features:**
+- Parses JSON data (`jq` in Bash, `ConvertFrom-Json` in PowerShell)  
+- Filters failed login events  
+- Counts failed login attempts per user  
+- Combines user status (active/disabled) with event data  
+- Applies multi-layer risk classification:
+  - **Critical**: Failed login(s) + disabled account  
+  - **High**: 3 or more failed logins  
+  - **Medium**: At least 1 failed login  
+  - **Low**: No failed logins  
+- Generates timestamped log reports  
+
+**Files:**
+- event-risk-analysis.sh  
+- event-risk-analysis.ps1  
+- users.csv  
+- events.json  
+- event_risk_report.log  
+
+---
+
 ## Usage
 
 ---
@@ -124,3 +153,11 @@ This script introduces validation, scoring, and more realistic security analysis
 .\service-checker.ps1
 .\user-risk-analysis.ps1
 .\advanced-user-risk-analysis.ps1
+.\event-risk-analysis.ps1
+
+## Bash
+./log-analyzer.sh
+./process-checker.sh
+./security_scan.sh
+./user-risk-analysis.sh
+./event-risk-analysis.sh
