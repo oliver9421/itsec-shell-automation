@@ -1,0 +1,6 @@
+hostname,status,department
+pc-01,patched,finance
+pc-02,outdated,hr
+pc-03,patched,it
+pc-04,outdated,sales
+pc-05,patched,finance

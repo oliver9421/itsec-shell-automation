@@ -1,0 +1,11 @@
+{
+  "vulnerabilities": [
+    {"hostname": "pc-01", "severity": "medium"},
+    {"hostname": "pc-02", "severity": "high"},
+    {"hostname": "pc-02", "severity": "critical"},
+    {"hostname": "pc-03", "severity": "low"},
+    {"hostname": "pc-04", "severity": "medium"},
+    {"hostname": "pc-04", "severity": "medium"},
+    {"hostname": "pc-05", "severity": "critical"}
+  ]
+}
