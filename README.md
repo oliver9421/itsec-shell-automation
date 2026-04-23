@@ -190,4 +190,6 @@ bash log-analyzer.sh
 bash process-checker.sh
 bash security_scan.sh
 bash event-risk-analysis.sh
+
+Python
 python vulnerability_analysis.py
