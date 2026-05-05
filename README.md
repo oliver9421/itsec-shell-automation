@@ -6,7 +6,7 @@
 
 This repository contains a collection of basic and intermediate security automation scripts written in Bash, PowerShell, and Python.
 
-The project demonstrates how scripting can be used to automate tasks in system administration and IT security, such as log analysis, process monitoring, and user risk evaluation.
+The project demonstrates how scripting can be used to automate tasks in system administration and IT security, such as log analysis, process monitoring, user risk evaluation, and vulnerability assessment.
 
 ---
 
@@ -23,6 +23,7 @@ The purpose of this project is to practice and demonstrate:
 - Version control using Git  
 - JSON parsing and data correlation  
 - Multi-source threat detection  
+- Risk classification and security analysis  
 
 ---
 
@@ -108,7 +109,7 @@ This script introduces validation, scoring, and more realistic security analysis
 - Exports report to CSV  
 
 **Files:**
-- advanced-user-risk-analysis.ps1 *(rename your script to this for clarity)*  
+- advanced-user-risk-analysis.ps1  
 - AI_UserSecurityData.csv  
 - AI_Risk_Report.csv  
 
@@ -141,13 +142,42 @@ This script simulates a basic SIEM/SOC detection workflow by correlating multipl
 
 ---
 
+### Vulnerability Analysis (Python, JSON + CSV)
+
+Analyzes device security by combining system information from a CSV file with vulnerability data from a JSON file.
+
+This script simulates a basic vulnerability management workflow by correlating multiple data sources and applying risk classification based on system status and vulnerability severity.
+
+**Features:**
+- Reads structured data from CSV (device inventory)  
+- Parses JSON vulnerability data  
+- Correlates data using hostname  
+- Counts total and critical vulnerabilities per device  
+- Applies risk classification:
+  - **CRITICAL**: Outdated system + at least one critical vulnerability  
+  - **HIGH**: Multiple vulnerabilities or outdated system with elevated risk  
+  - **MEDIUM**: At least one vulnerability  
+  - **LOW**: No vulnerabilities  
+- Handles missing or unknown devices safely  
+- Generates a structured report file  
+- (Improved version) includes error handling and sorted output by risk level  
+
+**Files:**
+- vulnerability_analysis.py  
+- devices.csv  
+- vulnerabilities.json  
+- vulnerability_report.txt  
+
+---
+
 ## Usage
 
 ---
 
-### PowerShell
+###
 
-```powershell
+```Powershell
+Powershell
 .\log-analyzer.ps1
 .\process-checker.ps1
 .\service-checker.ps1
@@ -155,9 +185,11 @@ This script simulates a basic SIEM/SOC detection workflow by correlating multipl
 .\advanced-user-risk-analysis.ps1
 .\event-risk-analysis.ps1
 
-## Bash
-./log-analyzer.sh
-./process-checker.sh
-./security_scan.sh
-./user-risk-analysis.sh
-./event-risk-analysis.sh
+Bash
+bash log-analyzer.sh
+bash process-checker.sh
+bash security_scan.sh
+bash event-risk-analysis.sh
+
+Python
+python vulnerability_analysis.py
