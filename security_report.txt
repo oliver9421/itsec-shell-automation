@@ -1,0 +1,21 @@
+=== Säkerhetsrapport från Python-logganalys ===
+Rapport skapad: 2026-05-05 09:30:52.699853
+
+Antal misstänkta loggrader: 6
+Antal unika IP-adresser: 3
+
+IP-adresser och antal träffar:
+- 192.168.1.10: 3 träffar
+- 10.0.0.8: 2 träffar
+- 172.16.0.5: 1 träffar
+
+Riskklassade IP-adresser:
+- 192.168.1.10: 3 misstänkta händelser
+
+Misstänkta loggrader:
+2026-05-05 10:01:22 Failed login from 192.168.1.10
+2026-05-05 10:01:35 Failed password for admin from 192.168.1.10
+2026-05-05 10:03:42 Unauthorized access attempt from 10.0.0.8
+2026-05-05 10:04:12 Failed login from 192.168.1.10
+2026-05-05 10:05:55 Access denied from 10.0.0.8
+2026-05-05 10:06:22 Error authentication failed from 172.16.0.5
